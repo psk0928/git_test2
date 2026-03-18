@@ -2,8 +2,10 @@ package git_test2;
 
 public class Hello {
 
+	String messege = "안녕하세요";
+
 	public void say() {
-		System.out.println("안녕하세요");
+		System.out.println(messege);
 	}
 	
 }
